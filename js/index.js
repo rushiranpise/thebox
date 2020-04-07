@@ -32,7 +32,7 @@ function init(){
 
     mesh = new THREE.Mesh(new THREE.BoxGeometry(1,1,1), new THREE.MeshBasicMaterial({
         color: 0x000000,
-        transparent: true,
+        transparent: false,
         opacity: 0.5
     }));
     scene.add(mesh);
